@@ -83,3 +83,17 @@ p.forecast-message {
     border: none;
     background-color: rgb(196, 196, 196)
 }
+
+.about-tittle {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about-text {
+    font-size: 1.3rem;
+}
+
+.fa-node {
+    font-size: 5.6rem;
+    color: rgb(34, 174, 90)
+}
