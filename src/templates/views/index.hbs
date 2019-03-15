@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <main>
+        {{>header}}
+        <form action="" class="search-form">
+            <input type="text" placeholder="City">
+            <button>Search</button>
+        </form>
+        <div class="forecast">
+            <p class="forecast-message" id="error-message"></p>
+            <p class="forecast-message" id="addres-message"></p>
+            <p class="forecast-message" id="forecast-message"></p>
+        </div>
+
+        {{>footer}}
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+
+</html>
