@@ -125,7 +125,7 @@ app.get('/help/*', (req, res) => {
 app.get('*', (req, res) => {
     res.render('404', error404.main)
 })
-const port = 8000;
+const port = process.env.PORT || 8000; // firs part is port for heroku
 // setup server listening
 app.listen(port, () => {
     console.log(`server is running on port ${port}`);
